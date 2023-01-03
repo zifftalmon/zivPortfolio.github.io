@@ -1,0 +1,16 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+.nav h1 {
+    margin-left: 1em;
+}
+.nav ul {
+    display: flex;
+    list-style: none;
+}
+.nav ul li {
+    margin: 1em;
+}
