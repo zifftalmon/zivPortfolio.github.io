@@ -6,4 +6,11 @@
   text-align: center;
   background-color: #AAA4B3;
 }
+hr {
+  /* background-color: black;
+  border-top:1px solid black;
+  border-bottom: 1px solid black; */
+  border: 2px solid black;
+
+}
 

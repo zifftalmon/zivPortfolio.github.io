@@ -1,0 +1,16 @@
+.homeIntro {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 7em auto;
+    padding: 3em;
+    width: 50vw;
+    height: 40vh;
+}
+.homeIntro h3 {
+    width: 50%;
+    text-align: left;
+}
+.homeIntro h3 > p > ul {
+    list-style: none;
+}
