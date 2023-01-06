@@ -1,18 +1,36 @@
 .details {
     display: flex;
-    border: 3px solid red;
     align-items: center;
     justify-content: space-between;
+    height: 35vh;
 }
-img {
+.details img {
     border-radius: 60%;
-    width: 10vw;
+    width: 12vw;
     height: 25vh;
+    transform: rotate(10deg);
 }
 .details .contact {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     width: 70%;
-    border: 3px solid red;
+    height: 35vh;
+    text-align: right;
+    line-height: 2;
+}
+.details .intro {
+    width: 30%;
+    height: 35vh;
+    margin-right: 2em;
+    line-height: 3.5;
+    margin-top: 2em;
+}
+.education {
+    text-align: center;
+    margin: 2em;
+    line-height: 3;
+}
+.education ul {
+    list-style: none;
 }

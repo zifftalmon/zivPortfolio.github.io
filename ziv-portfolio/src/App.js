@@ -1,20 +1,22 @@
 import './App.css';
 import Nav from './components/Nav';
-import Home from './components/Home';
-import {BrowserRouter} from 'react-router-dom'
+import Footer from './components/Footer';
+import {HashRouter} from 'react-router-dom'
 import './styles/Nav.css'
 import './styles/Home.css'
 import './styles/About.css'
+import './styles/Footer.css'
 
 
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="App">
         <Nav/>
+        <Footer/>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
