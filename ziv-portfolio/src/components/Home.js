@@ -1,25 +1,23 @@
+import { Link } from "react-router-dom"
 const Home = () => {
     return(
         <div>
             {/* <h1>Home</h1> */}
             <div className="homeIntro">
-                <h3>
-                    <p>
                         <h1>Hi!<br/>My name is Ziv</h1><br/>
+                    <p>
                         I'm a full-stack developer based in Jerusalem,
                         <br/>
                         My goal is to help <u>YOU</u> with defining and creating powerful online experiences for your brand
                     </p>
-                </h3>
+                    <Link style={{textDecoration:'none', color:'black'}} to='/about'><button className="button">About Me</button></Link>
                     {/* <div className="intro">
                         <h1>Ziv Talmon</h1>
                         <hr/>
                         <h2>Full-Stack Developer</h2>
                     </div> */}
             </div>
-            {/* HEADER */}
-            {/*EXPERIENCE SECTION */}
-            <section>
+            {/* <section>
                 <div className="education">
                     <h1>Education 🎓</h1>
                     <ul>
@@ -51,7 +49,7 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
         </div>
     )
 }

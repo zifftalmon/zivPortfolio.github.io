@@ -4,7 +4,9 @@
 }
 .App {
   text-align: center;
-  background-color: #AAA4B3;
+  background-color: #EAEAEA;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 100;
 }
 hr {
   /* background-color: black;

@@ -1,9 +1,11 @@
 .nav {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
     border-bottom: 1px solid black;
     background-color: #736E7C;
+    font-weight: 300;
+    /* height: 8vh; */
 }
 .nav h1 {
     margin-left: 1em;
