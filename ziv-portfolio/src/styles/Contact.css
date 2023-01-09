@@ -1,0 +1,9 @@
+.contactContainer {
+    border: 3px solid red;
+}
+.contactContainer img {
+    width: 100px;
+    height: 100px;
+    transform: rotate(11deg);
+    border-radius: 50%;
+}

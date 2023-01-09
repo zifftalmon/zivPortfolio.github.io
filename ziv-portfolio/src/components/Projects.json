@@ -1,26 +1,30 @@
 [
     {
         "id":1,
-        "name":"Drag and Drop Art Game",
+        "name":"Drag & Drop Art Game",
         "demo":"https://zifftalmon.github.io/ArtDragAndDrop/",
-        "repository":"https://github.com/zifftalmon/ArtDragAndDrop"
+        "repository":"https://github.com/zifftalmon/ArtDragAndDrop",
+        "tools":"JS|CSS"
+    },
+    {
+        "id":3,
+        "name":"Snapshot App",
+        "demo":"https://zifftalmon.github.io/snapshot/",
+        "repository":"https://github.com/zifftalmon/snapshot",
+        "tools":"JS|APIs"
     },
     {
         "id":2,
         "name":"Currency Converter",
         "demo":"https://zifftalmon.github.io/Currency-Converter/",
-        "repository":"https://github.com/zifftalmon/Currency-Converter"
-    },
-    {
-        "id":3,
-        "name":"Quotes App",
-        "demo":"https://zifftalmon.github.io/Quotes-App/",
-        "repository":"https://github.com/zifftalmon/Quotes-App"
+        "repository":"https://github.com/zifftalmon/Currency-Converter",
+        "tools":"JS|CSS|APIs"
     },
     {
         "id":4,
-        "name":"Snapshot App",
-        "demo":"https://zifftalmon.github.io/snapshot/",
-        "repository":"https://github.com/zifftalmon/snapshot"
+        "name":"Quotes App",
+        "demo":"https://zifftalmon.github.io/Quotes-App/",
+        "repository":"https://github.com/zifftalmon/Quotes-App",
+        "tools":"JS|CSS|Json"
     }
 ]

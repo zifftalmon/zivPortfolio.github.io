@@ -1,0 +1,69 @@
+.projectContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.projectPara {
+    margin-bottom: 60em;
+    margin-left: 10em;    
+    text-align: left;
+    padding: 1em;
+}
+.projectPara h1 {
+    text-align: left;
+    font-size: 6em;
+}
+.projectGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+    grid-template-rows: repeat(2, 350px);
+    /* gap: 1em; */
+    justify-content: center;
+    align-items: center;
+    margin-top: 25em;
+    margin-right: 4em;
+    
+}
+.project0,.project2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    height: 55vh;
+    /* border: 1px solid red; */
+    padding: 0.5em;
+    background-image: linear-gradient(to right top, #89abde35, #5cb0cf35, #56b0af35, #72ab8c35, #92a17235);
+    margin-bottom: 8em;
+    border-top-left-radius: 30px;
+    box-shadow: 10px 10px 10px 0px rgba(0,0,10,0.08);
+
+}
+.project0Header, .project2Header {
+    margin-bottom: 5em;
+    margin-right: 4em;
+}
+.project0Link, .project2Link {
+    margin-left: 10em;
+    margin-top: 4em;
+}
+.project0Link a, .project2Link a {
+    transition: 0.3s;
+    text-decoration: none;
+    color: black;
+}
+.project0Link a:hover, .project2Link a:hover {
+    color: white;
+}
+.project1, .project3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 10em; */
+    margin-right: 10em; 
+    border: 3px solid red;
+    width: 20vw;
+    height: 50vh;
+    border-bottom-right-radius: 30px;
+}

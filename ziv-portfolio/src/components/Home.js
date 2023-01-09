@@ -11,11 +11,6 @@ const Home = () => {
                         My goal is to help <u>YOU</u> with defining and creating powerful online experiences for your brand
                     </p>
                     <Link style={{textDecoration:'none', color:'black'}} to='/about'><button className="button">About Me</button></Link>
-                    {/* <div className="intro">
-                        <h1>Ziv Talmon</h1>
-                        <hr/>
-                        <h2>Full-Stack Developer</h2>
-                    </div> */}
             </div>
             {/* <section>
                 <div className="education">
@@ -37,19 +32,7 @@ const Home = () => {
                     </ul>
                 </div>
             </section>
-            <section>
-                <div className="details">
-                    <div className="contact">
-                        <img alt='profile-pic' src='WhatsApp Image 2023-01-03 at 15.54.19.jpeg'></img>
-                        <div>
-                            <h4>Based in Jerusalem</h4>
-                            <h4>23 Years Old</h4>
-                            <h4>zivtalmon89@gmail.com</h4>
-                            <h4>054-7564972</h4>
-                        </div>
-                    </div>
-                </div>
-            </section> */}
+    */}
         </div>
     )
 }

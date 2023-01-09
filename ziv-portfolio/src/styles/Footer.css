@@ -2,8 +2,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #736E7C;
-    border-top: 1px solid black;
+    background-color: #736e7c81;
+    /* border-top: 1px solid black; */
     height: 2.3em;
     width: 100%;
 }

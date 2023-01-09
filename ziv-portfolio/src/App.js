@@ -6,6 +6,9 @@ import './styles/Nav.css'
 import './styles/Home.css'
 import './styles/About.css'
 import './styles/Footer.css'
+import './styles/Project.css'
+import './styles/Contact.css'
+
 
 
 
