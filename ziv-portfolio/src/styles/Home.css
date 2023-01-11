@@ -1,4 +1,13 @@
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 .homeIntro {
+    animation: fadeIn 0.5s;
     display: flex;
     flex-direction: column;
     justify-content: center;

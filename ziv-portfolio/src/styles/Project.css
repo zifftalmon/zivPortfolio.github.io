@@ -1,4 +1,13 @@
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 .projectContainer {
+    animation: fadeIn 0.5s;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 280px);
@@ -37,7 +46,7 @@
     align-items: center;
     width: 20vw;
     height: 35vh;
-    padding: 0.5em;
+    padding: 1em;
     background-image: linear-gradient(to right top, #002d5580, #00567780, #007f8280, #50a67c80, #aec67980);
     margin-bottom: 8em;
     border-top-left-radius: 30px;
@@ -68,5 +77,6 @@
     align-items: center;
     width: 20vw;
     height: 35vh;
+    padding: 1em;
     border-bottom-right-radius: 30px;
 }

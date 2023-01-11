@@ -1,6 +1,5 @@
 import './App.css';
 import Nav from './components/Nav';
-import Footer from './components/Footer';
 import {HashRouter} from 'react-router-dom'
 import './styles/Nav.css'
 import './styles/Home.css'
