@@ -5,11 +5,11 @@ const Project = () => {
         <div className='projectContainer'>
             <div className='projectPara'>
                 <h1>My Work</h1>
-                <h3>
+                <p>
                 In my designs is strive to create a comfortable, well-thought design and UI, one that is both effective and powerful in terms of movement throughout the website/app and in compatibility both the client's and the users' needs, whether they be a mobile app, a stunning website or a simple one-paged document.
                 <br/><br/>    
-                In order to bring to you the most modern and relevant designs i research in accordance to changing tyrends and to your specefic requirements
-                </h3>
+                In order to bring to you the most modern and relevant designs I research in accordance to changing tyrends and to your specefic requirements
+                </p>
             </div>
             <div className='projectGrid'>
             {

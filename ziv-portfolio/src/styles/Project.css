@@ -1,20 +1,23 @@
 .projectContainer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 290px);
+    grid-template-rows: repeat(2, 280px);
     align-items: center;
     justify-content: center;
-    /* margin-bottom: 8em; */
-    /* border: 3px solid red; */
+    padding: 1em;
 }
 .projectPara {
+    margin-top: 5em;
     margin-left: 10em;    
     text-align: left;
-    font-size: 15px;
 }
 .projectPara h1 {
     text-align: left;
     font-size: 50px;
+}
+.projectPara p {
+    font-size: 20px;
+    font-weight: 200;
 }
 .projectGrid {
     display: grid;
@@ -24,6 +27,8 @@
     grid-template-rows: repeat(2, 250px);
     justify-content: center;
     align-items: center;
+    height: 100%;
+    margin-bottom: 5em;
 }
 .project0,.project2 {
     display: flex;
@@ -32,9 +37,8 @@
     align-items: center;
     width: 20vw;
     height: 35vh;
-    /* border: 1px solid red; */
     padding: 0.5em;
-    background-image: linear-gradient(to right top, #89abde35, #5cb0cf35, #56b0af35, #72ab8c35, #92a17235);
+    background-image: linear-gradient(to right top, #002d5580, #00567780, #007f8280, #50a67c80, #aec67980);
     margin-bottom: 8em;
     border-top-left-radius: 30px;
     box-shadow: 5px 10px 10px 0px rgba(0,0,10,0.08);
@@ -58,11 +62,10 @@
 .project1, .project3 {
     display: flex;
     flex-direction: column;
-    background-image: linear-gradient(to right top, #89abde35, #5cb0cf35, #56b0af35, #72ab8c35, #92a17235);
+    background-image: linear-gradient(to right top, #002d5580, #00567780, #007f8280, #50a67c80, #aec67980);
     box-shadow: -5px 10px 10px 0px rgba(0,0,10,0.08);
     justify-content: center;
     align-items: center;
-    /* border: 3px solid red; */
     width: 20vw;
     height: 35vh;
     border-bottom-right-radius: 30px;

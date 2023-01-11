@@ -11,18 +11,18 @@ const Nav = () => {
         <div>
             <div className='nav'>
                 <ul>
-                <h1><Link style={{textDecoration:'none', color:'black'}} to='/'>Ziv Talmon</Link></h1>
                     <li><Link style={{textDecoration:'none', color:'black'}} to='/'>Home</Link></li>
                     <li><Link style={{textDecoration:'none', color:'black'}} to='/projects'>Projects</Link></li>
                     <li><Link style={{textDecoration:'none', color:'black'}} to='/about'>About</Link></li>
                     <li><Link style={{textDecoration:'none', color:'black'}} to='/contact'>Contact</Link></li>
                 </ul>
-
-                <ul>
-                    <li><a href='https://www.facebook.com/ziv.talmon' target='_#'><img alt='facebook-icon' src='icons8-facebook-50.png'></img></a></li>
-                    <li><a href='https://github.com/zifftalmon' target='_#'><img alt='github-icon' src='icons8-github-50.png'></img></a></li>
-                    <li><a href='https://www.linkedin.com/in/ziv-talmon-56b256233/' target='_#'><img alt='linkedin-icon' src='icons8-linkedin-circled-50.png'></img></a></li>
-                </ul>
+                    <div>
+                        <ul>
+                            <li><a href='https://www.facebook.com/ziv.talmon' target='_#'><img alt='facebook-icon' src='icons8-facebook-50.png'></img></a></li>
+                            <li><a href='https://github.com/zifftalmon' target='_#'><img alt='github-icon' src='icons8-github-50.png'></img></a></li>
+                            <li><a href='https://www.linkedin.com/in/ziv-talmon-56b256233/' target='_#'><img alt='linkedin-icon' src='icons8-linkedin-circled-50.png'></img></a></li>
+                        </ul>
+                    </div>
             </div>
             <Routes>
                 <Route path='/' element={<Home/>}/>
