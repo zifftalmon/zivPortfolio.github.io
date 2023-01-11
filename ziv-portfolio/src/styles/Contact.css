@@ -1,9 +1,52 @@
-.contactContainer {
-    border: 3px solid red;
+.contact {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
 }
-.contactContainer img {
-    width: 100px;
-    height: 100px;
-    transform: rotate(11deg);
+.contact img {
+    width: 150px;
+    height: 150px;
+}
+.contact hr {
+    width: 70%;
+    border: 1px solid black;
+}
+.contactContainer {
+    /* border: 3px solid red; */
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5em 0 0 7em;
+    padding: 0.5em;
+    line-height: 3.5;
+    width: 70%;
+    height: 95vh;
+    border-radius: 30px;
+    background-image: linear-gradient(to right top, #002d5540, #00567740, #007f8240, #50a67c40, #aec67940);
+
+}
+.contactContainer ul {
+    list-style: none;
+    display: flex;
+}
+.contactContainer ul li > a > img {
+    margin: 1.5em 3em;
+    width: 60px;
+    height: 60px;
+}
+.contactDetailsDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contactDiv {
+    padding-left: 1.5em;
+    border-left: 1px solid black;
+}
+.contactDetailsDiv img {
     border-radius: 50%;
+    margin-right: 1.5em;
 }
