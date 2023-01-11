@@ -2,9 +2,13 @@
   margin: 0;
   padding: 0;
 }
-.App {
-  text-align: center;
+body {
   background-color: #EAEAEA;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.App {
   font-family: 'Lexend Deca', sans-serif;
   font-weight: 100;
 }

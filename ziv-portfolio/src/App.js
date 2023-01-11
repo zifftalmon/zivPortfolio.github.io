@@ -17,7 +17,6 @@ function App() {
     <HashRouter>
       <div className="App">
         <Nav/>
-        <Footer/>
       </div>
     </HashRouter>
   );
