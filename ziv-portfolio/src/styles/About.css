@@ -46,8 +46,40 @@
     align-items: center;
 }
 .imgDiv p {
-    width: 50%;
+    width: 80%;
     font-weight: 200;
     font-size: 20px;
-    
+    margin-left: 5em;
+}
+.imgDivPara {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5;
+}
+.imgDivPara h2 {
+    margin-left: 3em;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.321);
+}
+.imgDivPara ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.imgDivPara ul > li {
+    display: flex;
+    /* border: 3px solid red; */
+    flex-direction: column;
+    font-weight: 200;
+    margin: 1em 0 0 2em;
+}
+.imgDivPara ul > li > img {
+    border-radius: 0;
+    padding: 10px;
+    margin: 0;
+    align-self: center;
+    width: 40px;
+    height: 40px;
 }
