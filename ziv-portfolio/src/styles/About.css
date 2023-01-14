@@ -11,6 +11,9 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin: 3em 0;
+    padding: 4em;
+    
 }
 .aboutPara {
     display: flex;
@@ -29,26 +32,26 @@
 .aboutPara p {
     text-align: justify;
     align-self: baseline;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 200;
 }
 .about img{
     opacity: 0.7;
     border-radius: 20px;
-    margin: 5em 0 0 15em;
-    width: 25%;
-    height: 380px;
-    transform: scale(1.2);
+    margin: -2em 0 10em 12em;
+    width: 50%;
+    height: 40vh;
 }
 .imgDiv {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    margin-bottom: 3em;
 }
 .imgDiv p {
     width: 80%;
     font-weight: 200;
-    font-size: 20px;
+    font-size: 17px;
     margin-left: 5em;
 }
 .imgDivPara {
@@ -57,9 +60,10 @@
     justify-content: center;
     align-items: center;
     line-height: 1.5;
+    margin-bottom: 7em;
 }
-.imgDivPara h2 {
-    margin-left: 3em;
+.imgDivPara h3 {
+    margin-left: 1em 0 3em 0 ;
     border-bottom: 1px solid rgba(0, 0, 0, 0.321);
 }
 .imgDivPara ul {
@@ -67,10 +71,10 @@
     list-style: none;
     justify-content: space-evenly;
     align-items: center;
+    margin-bottom: 5em;
 }
 .imgDivPara ul > li {
     display: flex;
-    /* border: 3px solid red; */
     flex-direction: column;
     font-weight: 200;
     margin: 1em 0 0 2em;

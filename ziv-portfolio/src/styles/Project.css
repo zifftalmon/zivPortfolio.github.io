@@ -13,7 +13,9 @@
     grid-template-rows: repeat(2, 280px);
     align-items: center;
     justify-content: center;
-    padding: 1em;
+    gap: 0.5em;
+    padding: 2.5em;
+    margin: 2.5em 0;
 }
 .projectPara {
     margin-top: 5em;
@@ -33,11 +35,10 @@
     grid-column: 2/2;
     grid-row: 2/2;
     grid-template-columns: repeat(2, 300px);
-    grid-template-rows: repeat(2, 250px);
+    grid-template-rows: repeat(2, 230px);
     justify-content: center;
     align-items: center;
-    height: 100%;
-    margin-bottom: 5em;
+    margin-bottom: 15em;
 }
 .project0,.project2 {
     display: flex;
@@ -45,20 +46,25 @@
     justify-content: center;
     align-items: center;
     width: 20vw;
-    height: 35vh;
-    padding: 1em;
+    height: 30vh;
+    padding: 0.7em;
     background-image: linear-gradient(to right top, #002d5580, #00567780, #007f8280, #50a67c80, #aec67980);
-    margin-bottom: 9em;
+    margin-bottom: 5em;
     border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
     box-shadow: 5px 10px 10px 0px rgba(0,0,10,0.08);
 
 }
 .project0Header, .project1Header, .project2Header, .project3Header {
     margin-right: 4em;
 }
+.project3Header {
+    margin-bottom: 2.5em;
+}
 .project0Link, .project1Link, .project2Link, .project3Link {
-    margin-left: 10em;
-    margin-top: 2em;
+    margin-left: 11em;
+    margin-top: 1em;
 }
 .project0Link a, .project1Link a, .project2Link a, .project3Link a {
     transition: 0.3s;
@@ -76,7 +82,9 @@
     justify-content: center;
     align-items: center;
     width: 20vw;
-    height: 35vh;
-    padding: 1em;
+    height: 30vh;
+    padding: 0.5em;
     border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
 }

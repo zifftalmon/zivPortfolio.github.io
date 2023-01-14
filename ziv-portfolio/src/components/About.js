@@ -1,6 +1,6 @@
 const About = () => {
     return(
-        <div className="about">
+        <div id='about' className="about">
             <div className="aboutPara">
                 <h1>A Little About Myself</h1>
                 <br/>
@@ -18,7 +18,7 @@ const About = () => {
                         <br/>
                         To Reach this goal, my approach is to ideate together with my client, from the vision/dream, through drafting of the project and up until to the deployment of the project, keeping track of how it evolves over time
                     </p>
-                        <h2>Services</h2>
+                        <h3>Services</h3>
                     <ul>
                         <li>Web & UI Design<img alt='web-icon' src='icons8-web-50.png'/></li>
                         <li>Front-End Developemnet<img alt='front-end-icon' src='icons8-source-code-50.png'/></li>

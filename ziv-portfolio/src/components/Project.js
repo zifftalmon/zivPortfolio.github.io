@@ -2,7 +2,7 @@ import projects from './Projects.json'
 
 const Project = () => {
     return(
-        <div className='projectContainer'>
+        <div id='projects' className='projectContainer'>
             <div className='projectPara'>
                 <h1>My Work</h1>
                 <p>
