@@ -15,7 +15,7 @@ const Project = () => {
             {
                 projects.map((project,i) => {
                     return(
-                            <div className={`project${i}`}>
+                            <div key={i} className={`project${i}`}>
                                 <div className={`project${i}Header`}>
                                     <h1>{project.name}</h1>
                                     <h3>{project.tools}</h3>

@@ -8,7 +8,7 @@ const Nav = () => {
                     <li><a href='#about'>About</a></li>
                     <li> <a href='#contact'>Contact</a></li>
                 </ul>
-                    <div>
+                    <div className='profileList'>
                         <ul>
                             <li><a href='https://www.facebook.com/ziv.talmon' target='_#'><img alt='facebook-icon' src='icons8-facebook-50.png'></img></a></li>
                             <li><a href='https://github.com/zifftalmon' target='_#'><img alt='github-icon' src='icons8-github-50.png'></img></a></li>
