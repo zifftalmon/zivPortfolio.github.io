@@ -80,5 +80,44 @@
     border-bottom-left-radius: 30px;
 }
 @media screen and (min-width: 320px) and (max-width: 667px) {
-
+    .projectContainer {
+        display: flex;
+        padding: 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .projectPara {
+        margin: 1em;
+        text-align: center;
+    }
+    .projectPara h1 {
+        text-align: center;
+    }
+    .projectGrid {
+        grid-template-columns: repeat(2, 150px);
+        grid-template-rows: repeat(2, 200px);
+        margin-left: 3.7em;
+    }
+    .project0,.project2 {
+        margin-bottom: 0;
+        border-radius: 10px;
+        padding: 0.1;
+    }
+    .project1, .project3 {
+        border-radius: 10px;
+        padding: 0.1;
+    }
+    .project0Header, .project1Header, .project2Header, .project3Header {
+        margin-bottom: 4em;
+        font-size: 7px;
+    }
+    .project1Header, .project2Header, .project3Header {
+        margin-bottom: 6em;
+        margin-left: 1em;
+    }
+    .project0Link , .project1Link , .project2Link , .project3Link  {
+        font-size: 7px;
+        margin: 4em 0 0 8em;
+    }
 }
