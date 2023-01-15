@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/zivPortfolio.github.io/static/css/main.77981ea8.css",
-    "main.js": "/zivPortfolio.github.io/static/js/main.ca3374e1.js",
+    "main.css": "/zivPortfolio.github.io/static/css/main.633eb5ac.css",
+    "main.js": "/zivPortfolio.github.io/static/js/main.95ef1ec4.js",
     "static/js/787.f83a9c5c.chunk.js": "/zivPortfolio.github.io/static/js/787.f83a9c5c.chunk.js",
     "index.html": "/zivPortfolio.github.io/index.html",
-    "main.77981ea8.css.map": "/zivPortfolio.github.io/static/css/main.77981ea8.css.map",
-    "main.ca3374e1.js.map": "/zivPortfolio.github.io/static/js/main.ca3374e1.js.map",
+    "main.633eb5ac.css.map": "/zivPortfolio.github.io/static/css/main.633eb5ac.css.map",
+    "main.95ef1ec4.js.map": "/zivPortfolio.github.io/static/js/main.95ef1ec4.js.map",
     "787.f83a9c5c.chunk.js.map": "/zivPortfolio.github.io/static/js/787.f83a9c5c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.77981ea8.css",
-    "static/js/main.ca3374e1.js"
+    "static/css/main.633eb5ac.css",
+    "static/js/main.95ef1ec4.js"
   ]
 }
