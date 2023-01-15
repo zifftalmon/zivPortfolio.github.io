@@ -4,7 +4,6 @@
     justify-content: space-between;
     margin: 3em 0;
     padding: 4em;
-    
 }
 .aboutPara {
     display: flex;
@@ -118,6 +117,7 @@
         justify-content: center;
         text-align: center;
         align-self: center;
+        margin: 0;
     }
     .imgDivPara p {
         align-self: center;
