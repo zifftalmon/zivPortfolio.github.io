@@ -1,13 +1,4 @@
-@keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
 .about {
-    animation: fadeIn 0.5s;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -63,7 +54,7 @@
     margin-bottom: 7em;
 }
 .imgDivPara h3 {
-    margin-left: 1em 0 3em 0 ;
+    margin: 1em 0 3em 0 ;
     border-bottom: 1px solid rgba(0, 0, 0, 0.321);
 }
 .imgDivPara ul {
@@ -86,4 +77,64 @@
     align-self: center;
     width: 40px;
     height: 40px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 667px) {
+    .about {
+        margin-top: -10em;
+        margin-left: 1em;
+        padding: 0;
+        align-items: center;
+    }
+    .about img {
+        margin: 1em 0;
+        padding: 0;
+        width: 200px;
+        height: 200px;
+    }
+    .aboutPara {
+        text-align: center;
+        width: 100%;
+        align-items: center;
+    }
+    .aboutPara h1 {
+        margin: 0;
+        text-align: center;
+        align-self: center;
+    }
+    .aboutPara p {
+        align-self: center;
+        font-size: 13px;
+        width: 50%;
+    }
+    .imgDiv {
+        flex-direction: column;
+    }
+    .imgDiv p {
+        font-size: 13px;
+        margin-right: 5em;
+    }
+    .imgDivPara {
+        justify-content: center;
+        text-align: center;
+        align-self: center;
+    }
+    .imgDivPara p {
+        align-self: center;
+        text-align: center;
+    }
+    .imgDivPara h3 {
+        margin: 0;
+        text-align: center;
+    }
+    .imgDivPara ul {
+        margin-right:3.6em;
+    }
+    .imgDivPara ul > li {
+        font-size: 12px;
+    }
+    .imgDivPara ul > li > img {
+        width: 20px;
+        height: 20px;
+    }
 }

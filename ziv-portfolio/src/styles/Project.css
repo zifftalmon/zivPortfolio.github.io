@@ -94,30 +94,39 @@
     .projectPara h1 {
         text-align: center;
     }
+    .projectPara p {
+        font-size: 12px;
+    }
     .projectGrid {
         grid-template-columns: repeat(2, 150px);
-        grid-template-rows: repeat(2, 200px);
+        grid-template-rows: repeat(2, 120px);
         margin-left: 3.7em;
     }
     .project0,.project2 {
         margin-bottom: 0;
         border-radius: 10px;
         padding: 0.1;
+        box-shadow: none;
+        width: 20vw;
+        height: 15vh;
     }
     .project1, .project3 {
         border-radius: 10px;
         padding: 0.1;
+        box-shadow: none;
+        width: 20vw;
+        height: 15vh;
     }
     .project0Header, .project1Header, .project2Header, .project3Header {
-        margin-bottom: 4em;
+        margin-bottom: -6em;
         font-size: 7px;
     }
     .project1Header, .project2Header, .project3Header {
-        margin-bottom: 6em;
+        margin-bottom: -2em;
         margin-left: 1em;
     }
     .project0Link , .project1Link , .project2Link , .project3Link  {
         font-size: 7px;
-        margin: 4em 0 0 8em;
+        margin: 4em 0 1em 8em;
     }
 }

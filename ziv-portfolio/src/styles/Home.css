@@ -44,16 +44,15 @@
     .homeIntro {
         justify-content: center;
         align-items: center;
-        padding-top: 12em;
+        padding-top: 14em;
         margin-left: -5em;
         width: 70vw;
         height: 30vh;
         line-height: 1.3;
     }
     .homeIntro h1 {
-        margin-left: 0.7em;
         text-align: center;
-        font-size: 35px
+        font-size: 50px
     }
     .homeIntro p {
         width: 100%;
