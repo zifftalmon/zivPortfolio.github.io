@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/zivPortfolio.github.io/static/css/main.f6c0ba39.css",
+    "main.css": "/zivPortfolio.github.io/static/css/main.1068a63f.css",
     "main.js": "/zivPortfolio.github.io/static/js/main.95ef1ec4.js",
     "static/js/787.f83a9c5c.chunk.js": "/zivPortfolio.github.io/static/js/787.f83a9c5c.chunk.js",
     "index.html": "/zivPortfolio.github.io/index.html",
-    "main.f6c0ba39.css.map": "/zivPortfolio.github.io/static/css/main.f6c0ba39.css.map",
+    "main.1068a63f.css.map": "/zivPortfolio.github.io/static/css/main.1068a63f.css.map",
     "main.95ef1ec4.js.map": "/zivPortfolio.github.io/static/js/main.95ef1ec4.js.map",
     "787.f83a9c5c.chunk.js.map": "/zivPortfolio.github.io/static/js/787.f83a9c5c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f6c0ba39.css",
+    "static/css/main.1068a63f.css",
     "static/js/main.95ef1ec4.js"
   ]
 }
