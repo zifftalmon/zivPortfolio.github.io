@@ -10,7 +10,6 @@ import './styles/About.css'
 import './styles/Project.css'
 import './styles/Contact.css'
 
-// "homepage": "https://zifftalmon.github.io/zivPortfolio.github.io/",
 
 
 function App() {

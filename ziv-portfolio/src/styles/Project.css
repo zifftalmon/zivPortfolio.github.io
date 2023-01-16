@@ -119,15 +119,15 @@
         height: 15vh;
     }
     .project0Header, .project1Header, .project2Header, .project3Header {
-        margin-bottom: -6em;
-        font-size: 7px;
+        margin-bottom: -10em;
+        font-size: 6px;
     }
     .project1Header, .project2Header, .project3Header {
-        margin-bottom: -2em;
+        margin-bottom: -6em;
         margin-left: 1em;
     }
     .project0Link , .project1Link , .project2Link , .project3Link  {
         font-size: 7px;
-        margin: 4em 0 1em 8em;
+        margin: 4em 0 2em 8em;
     }
 }
