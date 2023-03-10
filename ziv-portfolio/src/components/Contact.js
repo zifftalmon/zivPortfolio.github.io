@@ -7,7 +7,7 @@ const Contact = () => {
                 <h4>Web Developer</h4>
                 <div className="contactDetailsDiv">
                     <div>
-                        <img alt='contact-img' src='WhatsApp Image 2023-01-03 at 15.54.19.jpeg'/>
+                        <img className='contact-img' alt='contact-img' src='WhatsApp Image 2023-01-03 at 15.54.19.jpeg'/>
                     </div>
                     <div className="contactDiv">
                         <h2>23 Years old</h2>

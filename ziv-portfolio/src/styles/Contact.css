@@ -1,19 +1,21 @@
-.contact {
+.contact{
     display: flex;
     box-sizing: border-box;
     justify-content: center;
     align-items: center;
 }
-.contact img {
+.contact img{
     width: 150px;
     height: 150px;
+}
+.contact-img {
+    transform: rotate(10deg);
 }
 .contact hr {
     width: 70%;
     border: 1px solid black;
 }
 .contactContainer {
-    /* border: 3px solid red; */
     display: flex;
     text-align: center;
     flex-direction: column;
