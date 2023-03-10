@@ -21,8 +21,8 @@ const Project = () => {
                                     <h3>{project.tools}</h3>
                                 </div>
                                 <div className={`project${i}Link`}>
-                                    <h2><a href={project.demo} target='#'>Demo</a></h2>
-                                    <h2><a href={project.repository} target='#'>Repo</a></h2>
+                                    <h2><a href={project.demo} target='#'>🔗 Demo</a></h2>
+                                    <h2><a href={project.repository} target='#'>&lt;/&gt; Repo</a></h2>
                                 </div>
                             </div>
                     )

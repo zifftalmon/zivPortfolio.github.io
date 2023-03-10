@@ -56,6 +56,7 @@
 .project0Link, .project1Link, .project2Link, .project3Link {
     margin-left: 11em;
     margin-top: 1em;
+    font-size: 13px;
 }
 .project0Link a, .project1Link a, .project2Link a, .project3Link a {
     transition: 0.3s;
