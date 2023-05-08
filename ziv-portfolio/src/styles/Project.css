@@ -101,23 +101,23 @@
     }
     .projectGrid {
         grid-template-columns: repeat(2, 150px);
-        grid-template-rows: repeat(2, 120px);
+        grid-template-rows: repeat(2, 150px);
         margin-left: 3.7em;
     }
     .project0,.project2 {
         margin-bottom: 0;
         border-radius: 10px;
-        padding: 0.2em;
+        padding: 0.5em;
         box-shadow: none;
         width: 20vw;
-        height: 15vh;
+        height: 14vh;
     }
     .project1, .project3 {
         border-radius: 10px;
-        padding: 0.2em;
+        padding: 0.5em;
         box-shadow: none;
         width: 20vw;
-        height: 15vh;
+        height: 14vh;
     }
     .project0Header, .project1Header, .project2Header, .project3Header {
         margin-bottom: -10em;
