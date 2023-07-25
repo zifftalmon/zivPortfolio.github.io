@@ -59,5 +59,10 @@
     }
 }
 @media screen and (min-width: 668px) and (max-width: 1368px) {
-
+    .homeIntro {
+        padding: 10em;
+        width: 80%;
+        height: 20em;
+    }
+    
 }

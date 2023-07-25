@@ -58,3 +58,10 @@
         margin-left: 0;
     }
 }
+@media screen and (min-width: 668px) and (max-width: 1368px) {
+    .nav {
+        width: 5em;
+        height: 100%;
+        justify-content: space-evenly;
+    }
+}

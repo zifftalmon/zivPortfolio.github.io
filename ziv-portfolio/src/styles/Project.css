@@ -103,6 +103,7 @@
         grid-template-columns: repeat(2, 150px);
         grid-template-rows: repeat(2, 150px);
         margin-left: 3.7em;
+        gap: 20px;
     }
     .project0,.project2 {
         margin-bottom: 0;
@@ -130,5 +131,34 @@
     .project0Link , .project1Link , .project2Link , .project3Link  {
         font-size: 7px;
         margin: 7em 0 2em 8em;
+    }
+}
+@media screen and (min-width: 668px) and (max-width: 1368px) {
+.projectPara {
+    margin: 8em 10em 8em 11em;
+    width: 100%;
+    }
+.projectGrid {
+    grid-template-columns: repeat(2, 200px);
+    grid-template-rows: repeat(2, 200px);
+    margin-top: 30em;
+    }
+.project0,.project2 {
+    height: 10vh;
+    }
+.project1, .project3 {
+    height: 10vh;
+    }
+.project0Header, .project1Header, .project2Header, .project3Header {
+    margin-bottom: -10em;
+    font-size: 9px;
+    }
+.project1Header, .project2Header, .project3Header {
+    margin-bottom: -6em;
+    margin-left: 1em;
+    }
+.project0Link , .project1Link , .project2Link , .project3Link  {
+    font-size: 9px;
+    margin: 7em 0 2em 8em;
     }
 }
