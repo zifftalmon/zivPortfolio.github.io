@@ -133,15 +133,15 @@
         margin: 7em 0 2em 8em;
     }
 }
-@media screen and (min-width: 668px) and (max-width: 1368px) {
+@media screen and (min-width: 668px) and (max-width: 1180px) {
 .projectPara {
-    margin: 8em 10em 8em 11em;
+    margin: 15em 10em 8em 15em;
     width: 100%;
     }
 .projectGrid {
     grid-template-columns: repeat(2, 200px);
     grid-template-rows: repeat(2, 200px);
-    margin-top: 30em;
+    margin: 25em 10em 0 0;
     }
 .project0,.project2 {
     height: 10vh;

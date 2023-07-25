@@ -138,3 +138,19 @@
         height: 20px;
     }
 }
+@media screen and (min-width: 668px) and (max-width: 1180px) {
+    .about {
+        margin: 10em 10em 0 0;
+    }
+    .about img {
+        margin: 0 0 25em 20em;
+        padding: 0;
+        width: 40%;
+        height: 50%;
+    }
+    .imgDiv {
+        justify-content: center;
+        align-items: center;
+    }
+
+}
