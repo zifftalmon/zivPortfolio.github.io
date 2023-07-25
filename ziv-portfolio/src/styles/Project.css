@@ -107,14 +107,14 @@
     .project0,.project2 {
         margin-bottom: 0;
         border-radius: 10px;
-        padding: 0.5em;
+        padding: 1em;
         box-shadow: none;
         width: 20vw;
         height: 14vh;
     }
     .project1, .project3 {
         border-radius: 10px;
-        padding: 0.5em;
+        padding: 1em;
         box-shadow: none;
         width: 20vw;
         height: 14vh;
