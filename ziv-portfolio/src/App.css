@@ -16,7 +16,7 @@ body {
 hr {
   border: 2px solid black;
 }
-
+/* 
 @media only screen and (min-width: 320px) {
     .nav {
         background-color: #89ABDE;
@@ -261,4 +261,4 @@ hr {
     .contactContainer {
         margin-right: 3em;
     }
-}
+} */
