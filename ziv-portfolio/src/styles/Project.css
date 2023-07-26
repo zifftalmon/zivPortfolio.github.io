@@ -80,7 +80,7 @@
     border-top-right-radius: 30px;
     border-bottom-left-radius: 30px;
 }
-@media screen and (min-width: 320px) and (max-width: 667px) {
+@media (min-width: 320px) and (max-width: 667px) {
     .projectContainer {
         display: flex;
         padding: 0;
@@ -133,7 +133,7 @@
         margin: 7em 0 2em 8em;
     }
 }
-@media screen and (min-width: 668px) and (max-width: 1180px) {
+@media (min-width: 668px) and (max-width: 1180px) {
 .projectPara {
     margin: 15em 10em 8em 15em;
     width: 100%;
