@@ -33,7 +33,7 @@
     transition: 0.3s;
 }
 
-@media (min-width: 320px) and (max-width: 667px) {
+@media (min-width: 320px) {
     .nav {
         background-color: #89ABDE;
         flex-direction: row;
@@ -58,7 +58,7 @@
         margin-left: 0;
     }
 }
-@media (min-width: 668px) and (max-width: 1080px) {
+@media (min-width: 668px) {
     .nav {
         width: 5em;
         height: 100%;
