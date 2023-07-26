@@ -39,7 +39,7 @@
     box-shadow: 0px 3px 21px 1px rgba(106,154,139,1);
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 667px) {
     .homeIntro {
         justify-content: center;
         align-items: center;
@@ -58,7 +58,7 @@
         text-align: center;
     }
 }
-@media screen and (min-width: 668px) {
+@media screen and (min-width: 668px) and (max-width: 1180px) {
     .homeIntro {
         padding: 9em;
         width: 45vw;
