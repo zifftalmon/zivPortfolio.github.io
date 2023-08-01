@@ -30,6 +30,7 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 15em;
+    gap: 50px;
 }
 .project0,.project2 {
     display: flex;
