@@ -30,7 +30,6 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 15em;
-    gap: 50px;
 }
 .project0,.project2 {
     display: flex;
@@ -105,7 +104,7 @@
         grid-template-columns: repeat(2, 150px);
         grid-template-rows: repeat(2, 150px);
         margin-left: 3.7em;
-        gap: 20px;
+        gap: 50px;
     }
     .project0,.project2 {
         margin-bottom: 0;
