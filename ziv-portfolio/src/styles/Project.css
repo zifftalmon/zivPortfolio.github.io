@@ -102,7 +102,7 @@
     }
     .projectGrid {
         grid-template-columns: repeat(2, 150px);
-        grid-template-rows: repeat(2, 150px);
+        grid-template-rows: repeat(2, 160px);
         margin-left: 3.7em;
         gap: 50px;
     }
