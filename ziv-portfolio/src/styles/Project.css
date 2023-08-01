@@ -105,6 +105,7 @@
         grid-template-rows: repeat(2, 160px);
         margin-left: 3.7em;
         gap: 50px;
+        border: 3px solid red;
     }
     .project0,.project2 {
         margin-bottom: 0;
