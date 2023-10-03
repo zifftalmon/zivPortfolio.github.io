@@ -78,7 +78,7 @@
     height: 40px;
 }
 
-@media screen and (min-width: 320px) and (max-width: 667px) {
+@media screen and (min-width: 320px) and (max-width: 414px) {
     .about {
         margin-top: -10em;
         margin-left: 1em;
